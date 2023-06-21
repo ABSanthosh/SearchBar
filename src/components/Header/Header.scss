@@ -1,0 +1,7 @@
+.HeaderWrapper {
+  @include box(100%, 65px);
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  @include make-flex($just: space-between, $dir: row);
+  padding: 15px;
+}
