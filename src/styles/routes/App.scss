@@ -1,0 +1,4 @@
+.MainContainer {
+  @include box(100vw, 100vh);
+  background-color: darkcyan;
+}
